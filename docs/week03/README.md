@@ -46,6 +46,8 @@ JPA의 더티 체킹(Dirty-Checking)을 이용하여 Update 쿼리 없이 테이
 
 ### Architecture
 
+![Spring Application Architecture](https://images.viblo.asia/0b2971bd-7098-4652-a677-c61aea36e032.png)
+
 - Web Layer 
   - 흔히 사용하는 컨트롤러와 JSP/Freemarker 등의 뷰 템플릿 영역.
   - 이외에도 필터(`@Filter`), 인터셉터, 컨트롤러 어드바이스 등 **외부 요청과 응답에 대한 전반적인 영역**.
@@ -71,4 +73,5 @@ JPA의 더티 체킹(Dirty-Checking)을 이용하여 Update 쿼리 없이 테이
 
 ## References
 
-- 
+- https://jojoldu.tistory.com/415
+- https://itzone.com.vn/en/article/entity-domain-model-and-dto-why-so-many/
